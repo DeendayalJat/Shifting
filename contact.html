@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShiftingExpertCargoPakers.com</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional CSS for button positioning */
+    .fixed-buttons {
+      position: fixed;
+      top: 50%; /* Adjust as needed */
+      right: 20px; /* Adjust as needed */
+      transform: translateY(-50%);
+      z-index: 1000; /* Ensure buttons are above other content */
+    }
+    .fixed-buttons .btn {
+      margin-bottom: 10px;
+    }
+  </style>
+  <style>
+    
+    /* Custom CSS for footer */
+    .footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 30px 0;
+      margin-top: 50px;
+    }
+    .footer a {
+      color: #ffffff;
+    }
+    .footer a:hover {
+      color: #f8f9fa;
+      text-decoration: none;
+    }
+    .social-icons a {
+      color: #ffffff;
+      margin: 0 10px;
+    }
+ 
+  </style>
+ 
+ <style>
+    /* Custom CSS for service boxes */
+    .services {
+      padding: 80px 0; /* Adjust spacing as needed */
+      background-color: #f8f9fa; /* Background color for the service section */
+    }
+  
+    .services .card {
+      border: none; /* Remove default card border */
+      transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+      height: 100%; /* Ensure card height expands to fit content */
+    }
+  
+    .services .card:hover {
+      transform: translateY(-5px); /* Lift card on hover */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow on hover */
+    }
+  
+    .services .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+  
+    .services .card-text {
+      font-size: 16px;
+      color: #6c757d; /* Text color for service description */
+    }
+  
+    .services .card-img-top {
+      height: 200px; /* Set height of the service image */
+      object-fit: cover; /* Ensure image covers entire area */
+    }
+  
+    @media (max-width: 768px) {
+      .services {
+        padding: 50px 0; /* Adjust spacing on smaller screens */
+      }
+    }
+  </style>
+<style>
+    /* Custom CSS for heading */
+    h2 {
+      font-size: 36px;
+      color: #333; /* Adjust color as needed */
+      font-weight: bold;
+    }
+  </style>  
+  <style>
+    /* Custom CSS for contact section with background image */
+    #contact {
+      background: url('https://www.shreejipackersandmovers.com/images/contact-easy.png') no-repeat center center fixed;
+      background-size: cover;
+      padding: 100px 0; /* Adjust padding as needed */
+    }
+  </style>
+  <style>
+    /* Container for why choose us content */
+.why-choose-us-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation for image on hover */
+.animated-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+.animated-image img {
+    transition: transform 0.4s ease-out;
+}
+
+.animated-image:hover img {
+    transform: scale(1.1); /* Example: Zoom in on hover */
+}
+
+  </style>
+</head>
+<body>
+<header>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">ShiftingExpertCargoPakers</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="main shift.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.HTML">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Buttons -->
+  <div class="fixed-buttons">
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/8441868684" target="_blank" class="btn btn-success btn-lg d-block mb-3">
+      <i class="fab fa-whatsapp"></i> WhatsApp <i ></i>
+    </a>
+
+    <!-- Email Button -->
+    <a href="mailto:shiftingexpertcargopakers.com" class="btn btn-primary btn-lg d-block mb-3">
+      <i class="far fa-envelope"></i> Email <i ></i>
+    </a>
+
+    <!-- Call Button -->
+    <a href="tel:+918441868684" class="btn btn-danger btn-lg d-block">
+      <i class="fas fa-phone-alt"></i> Call <i ></i>
+    </a>
+  </div>
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <form id="contactForm" method="post" action="submit.php">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="query">Your Query</label>
+              <textarea class="form-control" id="query" name="query" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <h2>Our Network Across India</h2>
+  <div class="container">
+    <!-- <h2>Our Network Across India</h2> -->
+    <div class="map-container">
+        <img src="https://media.istockphoto.com/id/1341764579/vector/stylized-simple-outline-map-of-india-icon-blue-sketch-map-of-india-vector-illustration.jpg?s=612x612&w=0&k=20&c=Rd1gKEjjiX0qw9nO6tX6VfFxY2SJDt44L-G4lRqQIC8=" alt="India Map" class="map-image">
+        
+        <div class="location" id="jaipur">
+          <div class="location-sign">&#x1F4CD;</div>
+          <div class="location-name">Jaipur</div>
+      </div>
+      <div class="location" id="mumbai">
+            <div class="location-sign">&#x1F4CD;</div>
+            <div class="location-name">Mumbai</div>
+        </div>
+        <div class="location" id="delhi">
+            <div class="location-sign">&#x1F4CD;</div>
+            <div class="location-name">Delhi</div>
+        </div>
+        <div class="location" id="bengaluru">
+            <div class="location-sign">&#x1F4CD;</div>
+            <div class="location-name">Bengaluru</div>
+        </div>
+        <div class="location" id="kolkata">
+            <div class="location-sign">&#x1F4CD;</div>
+            <div class="location-name">Kolkata</div>
+        </div>
+        <div class="location" id="chennai">
+            <div class="location-sign">&#x1F4CD;</div>
+            <div class="location-name">Chennai</div>
+        </div>
+        <div class="location" id="hyderabad">
+            <div class="location-sign">&#x1F4CD;</div>
+            <div class="location-name">Hyderabad</div>
+        </div>
+        <!-- Add more locations as needed -->
+    </div>
+    <aside class="sidebar">
+        <h2>Locations</h2>
+        <ul>
+            <li><a href="#jaipur">Jaipur</a></li>
+            <li><a href="#mumbai">Mumbai</a></li>
+            <li><a href="#delhi">Delhi</a></li>
+            <li><a href="#bengaluru">Bengaluru</a></li>
+            <li><a href="#kolkata">Kolkata</a></li>
+            <li><a href="#chennai">Chennai</a></li>
+            <li><a href="#hyderabad">Hyderabad</a></li>
+            <!-- Add more locations as needed -->
+        </ul>
+    </aside>
+  </div>
+  <script src="script.js"></script>
+  
+    
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>About SHIFTING</h5>
+          <ul class="list-unstyled">
+            <li><a href="main shift.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Reviews & Rating</a></li>
+            <li><a href="#">Shifting Charges</a></li>
+            <li><a href="main shift.html">FAQ</a></li>
+            <li><a href="#">Buy Leads</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Need Help ?</h5>
+          <p>Call: <a href="tel:+918441868684">+91-8441868684</a></p>
+        </div>
+        <div class="col-md-3">
+          <h5>Find Us On</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-md-right">
+          <p>Copyrights 2024. &copy;SHIFTINGEXPERTCARGOPAKERS All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
